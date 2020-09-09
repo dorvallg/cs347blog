@@ -3,16 +3,19 @@ body{
     margin: 0;
 }
 
-h1, #root{
-    font-size: 2em;
+#root{
+    font-size: 1em;
     background-color: white;
     width: 960px;
+    min-height: 100vh;
     margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 0 0 20px gray;
     box-sizing: border-box;
 }
 
-#root{
-    min-height: 100vh;
+h1{
+    text-align: center;
 }
+
+
